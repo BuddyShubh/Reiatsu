@@ -1,0 +1,26 @@
+.recent-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: .5rem;
+    background-color: #333;
+    border-radius: 50px;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    width: 97dvw;
+    overflow: hidden;
+    &>h1 {
+        margin-left: 4rem;
+    }
+
+    .card-container {
+        overflow-x: scroll;
+        width: 100vw;
+        display: flex;
+        padding-right: .5rem;
+
+        .card-outline {
+            margin-left: .5rem;
+        }
+    }
+}

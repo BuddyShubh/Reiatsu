@@ -1,0 +1,28 @@
+.player-container {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+
+    border-top: 1px solid orangered;
+
+    .player {
+        width: 80dvw;
+        height: 70dvh;
+        border: 3px solid #f74b00;
+        border-radius: 10px;
+        background-color: #333;
+        display: grid;
+        place-items: center;
+        font-size: xx-large;
+        overflow: hidden;
+
+        iframe {
+            width: inherit;
+            height: inherit;
+            // overflow: hidden;
+        }
+    }
+}
